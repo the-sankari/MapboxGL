@@ -1,0 +1,10 @@
+body{
+    background-color: bisque;
+}
+
+.containerGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
